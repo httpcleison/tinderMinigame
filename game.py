@@ -7,8 +7,7 @@ while game==True:
     
     if valor % 2 != 0 and valor >= 15 or valor % 2 != 0 and valor < 15:
         print("Não foi dessa vez!")
+    elif valor % 2 == 0 and valor < 15:
+        print("Deu match!!Um beijo no rosto!")
     else:
         print("Um abraco, apenas amizade!")
-
-    if valor % 2 > 0 and valor < 15:
-        print("Deu match!!Um beijo no rosto!")
